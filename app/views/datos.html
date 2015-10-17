@@ -1,0 +1,24 @@
+
+    <div class="row marketing">
+        <div 
+            class="page-header"              
+            >
+            <div ng-init="cantidad=1;precio=5">
+                    <strong>
+                        Cantidad: 
+                    </strong>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="number"	ng-model="cantidad">
+                    <br/><br/>
+                    <strong>
+                        Costo:
+                    </strong>    
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="number" ng-model="precio">
+                    <br/><br/>
+                    <strong>
+                        Total in dollar: {{ cantidad * precio }}
+                    </strong>
+            </div>
+        </div>
+    </div>

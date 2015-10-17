@@ -1,0 +1,29 @@
+
+    <div class="row marketing">
+        <div 
+            class="page-header"              
+            >
+            <div 
+                    ng-init="info=[
+                        {
+                            name:'Cesar',country:'Peru'
+                        },
+                        {
+                            name:'Hege',country:'Suecia'
+                        },
+                        {
+                            name:'Su',country:'Alemania'
+                        },
+                        {
+                            name:'Juan',country:'Bolivia'
+                        }
+                    ]"
+            >
+                <ul>
+                    <li ng-repeat="x in info">
+                    {{ x.name + ', ' + x.country }}
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
