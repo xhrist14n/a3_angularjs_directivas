@@ -1,0 +1,18 @@
+BUILDPACK_URL:                https://github.com/heroku/heroku-buildpack-multi.git
+CLEARDB_DATABASE_URL:         mysql://b95ade1d4fffd3:d36681cb@us-cdbr-iron-east-02.cleardb.net/heroku_587373ea84ac21b?reconnect=true
+MEMCACHIER_CHARCOAL_PASSWORD: 1a760a907e
+MEMCACHIER_CHARCOAL_SERVERS:  mc2.dev.ec2.memcachier.com:11211
+MEMCACHIER_CHARCOAL_USERNAME: 09007d
+MEMCACHIER_PASSWORD:          3c8319b563
+MEMCACHIER_SERVERS:           mc5.dev.ec2.memcachier.com:11211
+MEMCACHIER_USERNAME:          8209d0
+
+
+user : b95ade1d4fffd3
+
+pass : d36681cb
+
+server : us-cdbr-iron-east-02.cleardb.net
+
+database : heroku_587373ea84ac21b
+
