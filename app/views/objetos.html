@@ -16,12 +16,15 @@
                         },
                         {
                             name:'Juan',country:'Bolivia'
+                        },
+                        {
+                            name:'Carlos',country:'Mexico'
                         }
                     ]"
             >
                 <ul>
                     <li ng-repeat="x in info">
-                    {{ x.name + ', ' + x.country }}
+                    {{ '<strong>'+x.name + '</strong> , ' + x.country }}
                     </li>
                 </ul>
             </div>
